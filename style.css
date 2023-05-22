@@ -1,0 +1,18 @@
+ .wrapper{
+     display: flex;
+     flex-wrap: wrap;
+     width: 1000px;
+     margin: 30px auto;
+     gap: 30px;
+ }
+
+ .wrapper div {
+     border: 1px solid #0a0a64;
+     border-radius: 50%;
+     width: 300px;
+     height: 300px;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+ }
